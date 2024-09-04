@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+    <div class="title">
+        <h1>FILL THE FORM</h1>
+    </div>
+    <div class="data">
+        <form class="form" action="proses.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label>NAMA</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input class="field" type="text" name="name" placeholder="masukkan nama..." />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>TANGGAL LAHIR</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input class="field" type="date" name="date" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>USIA</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input class="field" type="number" name="age" placeholder="masukkan usia..." re />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>JENIS KELAMIN</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Laki-laki">Laki-laki</label>
+                        <input type="radio" name="gender" value="Perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>AGAMA</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <select class="field" name="agama">
+                            <option value="Islam">ISLAM</option>
+                            <option value="Kristen">KRISTEN</option>
+                            <option value="Katolik">KATOLIK</option>
+                            <option value="Hindu">HINDU</option>
+                            <option value="Budha">BUDHA</option>
+                            <option value="Konghucu">KONGHUCU</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>MOTTO HIDUP</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <textarea name="pesan" placeholder="masukkan pesan..."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>EMAIL</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input class="field" type="email" name="email" placeholder="masukkan email..." />
+                    </td>
+                </tr>
+            </table>
+            <input class="button" type="submit" name="submit" value="UPLOAD" />
+        </form>
+    </div>
+    <footer>&copy;2024-Shalma Nur Fadilla.</footer>
+</body>
+
+</html>
