@@ -15,6 +15,10 @@
 
 <body>
     <div class="title">
+        <h1>THANK YOU!</h1>
+        <h3>Please Check Your Data Below</h3>
+    </div>
+    <div class="title-table">
         <h1>DATA TABLE</h1>
     </div>
     <table class="table_border" border="1px">
@@ -59,8 +63,7 @@
         </tbody>
     </table>
     <form action="index.html" method="get">
-        <input class="button" type="submit" name="submit2" value="BACK" method="get"
-            action="index.html" />
+        <input class="button" type="submit" name="submit2" value="BACK" method="get" action="index.html" />
     </form>
     <footer>&copy;2024-Shalma Nur Fadilla.</footer>
 </body>
