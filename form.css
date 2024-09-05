@@ -11,8 +11,18 @@ textarea {
   border-radius: 10px;
 }
 
+h3{
+  color: black;
+}
+
 .title {
   margin-top: 150px;
+  text-align: center;
+  color: rgb(134, 134, 134);
+}
+
+.title-table {
+  margin-top: 50px;
   text-align: center;
   color: rgb(134, 134, 134);
 }
@@ -70,7 +80,7 @@ textarea {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;

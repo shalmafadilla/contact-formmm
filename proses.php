@@ -7,9 +7,9 @@ function tambah_form($post)
 {
   global $db;
 
-  $name   = strip_tags($post['nama']);
-  $date   = strip_tags($post['tanggal_lahir']);
-  $age  = strip_tags($post['usia']);
+  $name   = strip_tags($post['name']);
+  $date   = strip_tags($post['date']);
+  $age  = strip_tags($post['age']);
   $gender  = strip_tags($post['jenis_kelamin']);
   $agama   = strip_tags($post['agama']);
   $message = strip_tags($post['pesan']);
