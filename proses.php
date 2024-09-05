@@ -10,7 +10,7 @@ function tambah_form($post)
   $name   = strip_tags($post['name']);
   $date   = strip_tags($post['date']);
   $age  = strip_tags($post['age']);
-  $gender  = strip_tags($post['jenis_kelamin']);
+  $gender  = strip_tags($post['gender']);
   $agama   = strip_tags($post['agama']);
   $message = strip_tags($post['pesan']);
   $email  = strip_tags($post['email']);
